@@ -1,0 +1,14 @@
+lst = []
+odd=[]
+even=[]
+n=int(input("n"))
+for i in range (0,n):
+    x=int(input("x"))
+    lst.append(x)
+    if (x%2)==0:
+        even.append(x)
+    else :
+        odd.append(x)
+print(lst)
+print(even)
+print(odd)
